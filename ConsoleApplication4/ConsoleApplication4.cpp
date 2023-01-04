@@ -18,10 +18,6 @@ public:
 		return price - price / discount;
 	}
 };
-void Again()
-{
-
-}
 int main()
 {
 link:
