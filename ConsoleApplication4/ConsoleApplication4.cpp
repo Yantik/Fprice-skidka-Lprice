@@ -20,17 +20,10 @@ public:
 };
 int main()
 {
-link:
 	started;
-	int price,Dis;
+	uint price,Dis;
 	cout << "Введите цену товара: ";
 	cin >> price;
-
-	if (price <= 0)
-	{
-		cout << "Товар имеет цену меньше или равно нулю"; 
-		goto link;
-	}
 	cout << "Введите скидку товара: ";
 	cin >> Dis;
 	Nowprice* product = new Nowprice;
